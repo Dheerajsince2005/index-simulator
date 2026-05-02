@@ -59,12 +59,13 @@ if page == "Home":
 
     st.subheader("What is this?")
     st.markdown("""
-    This tool simulates how a financial index provider like **Morningstar** constructs and 
-    reconstitutes equity indexes. Every quarter, stocks are evaluated against a set of rules 
+    This tool simulates how equity indexes like **Nifty 50** are constructed and 
+    reconstituted. Every quarter, stocks are evaluated against a set of rules 
     and the index membership is updated — this is called **reconstitution**.
     
     We built 7 indexes on 20 NSE stocks, each using a different methodology to select and 
-    weight constituents. You can explore who's in each index, compare their performance, 
+    weight constituents — similar to how Nifty 50, Nifty Low Vol 30, and Nifty Momentum 30 
+    work in the real world. You can explore who's in each index, compare their performance, 
     and even build your own.
     """)
 
